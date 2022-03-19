@@ -1,0 +1,630 @@
+/* @media(max-width: 1000px){
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        transition: top 1s ease;
+
+    }
+
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .mainMenu li a:hover{
+        color: orange;
+        font-size: 1.6rem;
+    }
+
+    .icon a icon-icon{
+        display: inline-block;
+        padding: 15px;
+    }
+} */
+
+/* navigation bar */
+
+nav .mainMenu {
+    padding-left: 60px;
+}
+
+nav .mainMenu li {
+    padding: 0px 18px;
+    margin-left: 8px;
+    padding-left: 2px;
+}
+
+nav .mainMenu li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/*Image styling home page*/
+
+#home{
+    margin-top: -64px;
+}
+
+.dots{
+    margin-top: -180px;
+}
+
+    /*about us*/
+
+    .about .btn{
+        margin-left: 250px;
+        padding: 8px 20px;
+    }
+
+    /*about the coach*/
+
+    #about-coatch .about-the-coatch h2{
+    
+        color: white;
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        margin-top: 35px;
+        padding-left: 150px;
+        text-transform: uppercase;
+    }
+    .about-the-coatch{
+        height: 400px;
+    }
+
+    .about-the-coatch p{
+        padding-left: 150px;
+        padding-right: 650px;
+    }
+    .about-the-coatch .btn{
+        margin:9px 150px;
+    }
+
+    .about-the-coatch .name{
+        float: right;
+        margin: -40px 459px;
+        font-size: 1.2rem;
+    }
+    .about-the-coatch .coach{
+        float: right;
+        margin: -43px 198px;
+        font-size: 1.3rem;
+        
+    }
+
+    /* third section */
+
+    #third-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .third-box-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /* float: left; */
+    margin-bottom: 50px;
+
+}
+.third-box-second
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* float: right; */
+    margin-bottom: 50px;
+}
+    /*gallary section*/
+    .gallery-heading {
+            width: 640px;
+       
+    }
+    .gallery-heading h2{
+        padding-left: 130px;
+        font-size: 3rem;
+       
+    }
+
+     @media (max-width: 1200px)
+     {
+        /*Logo*/
+    .logo li a{
+        padding-left: 0px;
+    }
+        /*main menu*/
+    nav .mainMenu {
+        padding-left: 33px;
+    }
+
+    .dots{
+        margin-top: -80px;
+    }
+
+     /*about us*/
+
+     #about-us .about{
+         margin-top: 5%;
+         width: 70%;
+     }
+    
+     #about-us .about .btn{
+        margin-left: 210px;
+        padding: 8px 20px;
+    }
+
+    /*about the coach*/
+
+    .about-the-coatch{
+        height: 500px;
+    }
+
+    #about-coatch .about-the-coatch h2{
+        padding-left: 70px;
+    }
+    .about-the-coatch p{
+        padding-left: 70px;
+        padding-right: 500px;
+        text-align: justify;
+    }
+    .about-the-coatch .btn{
+        margin:9px 70px;
+    }
+    .about-the-coatch img{
+        padding: 0 110px;
+    }
+
+    .about-the-coatch .name{
+        float: right;
+        margin: -70px 359px;
+        font-size: 1.2rem;
+    }
+    .about-the-coatch .coach{
+        float: right;
+        margin: -43px 118px;
+        font-size: 1.3rem;
+        
+    }
+    /* third section */
+  
+    .third-box-first .third-box-text-first{
+        border: 2px solid black;
+        width: 230px;
+        height: 400px;
+        padding: 40px;
+    }
+    .third-box-first{
+        margin-bottom: 5px;
+    }
+    .third-box-second{
+        margin-bottom: 5px;
+    }
+    .third-box-second .third-box-text-second{
+        border: 2px solid black;
+        width: 230px;
+        height: 400px;
+        padding: 40px;
+    }
+    .third-box-second  img{
+        width: 230px;
+        height: 400px;
+        
+    }
+    .third-box-first  img{
+        width: 230px;
+        height: 400px;
+    }
+
+    /* galery album */
+
+    .gallery-album img{
+       margin: 5px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .gallery-heading {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 370px;
+   
+}
+.gallery-heading h2{
+    padding-left: 90px;
+    font-size: 2rem;
+   
+}
+
+/*Review*/
+#review{
+    margin: 80px 150px;
+    padding: 30px;
+}
+#review .review-detail .btn{
+    margin-left: 320px;
+}
+
+    }
+    
+    @media (max-width: 1000px){
+        /*Logo*/
+    .logo li a{
+        padding-left: 20px;
+    }
+
+    /*main menu*/
+    nav .mainMenu {
+        padding-left: 23px;
+    }
+    nav .mainMenu li a {
+        padding: 0px;
+        font-size: 1rem;
+    }
+
+    .icon{
+        padding-left: 40px;
+    }
+
+    /*about us*/
+    #about-us .about{
+        margin-top: -100px;
+        width: 70%;
+    }
+    
+    #about-us .about .btn{
+        margin-left: 180px;
+        padding: 8px 20px;
+    }
+
+    /*about the coach*/
+    .about-the-coatch{
+        height: 400px;
+    }
+    #about-coatch .about-the-coatch h2{
+        padding-left: 40px;
+    }
+    .about-the-coatch p{
+        padding-left: 40px;
+        padding-right: 400px;
+        text-align: justify;
+    }
+    .about-the-coatch .btn{
+        margin:9px 40px;
+    }
+    .about-the-coatch img{
+        padding: 0 50px;
+    }
+
+    .about-the-coatch .name{
+        float: right;
+        margin: -60px 319px;
+        font-size: 1.2rem;
+    }
+    .about-the-coatch .coach{
+        float: right;
+        margin: -43px 60px;
+        font-size: 1.3rem;
+    }
+
+    /* third selection */
+
+    #third-section{
+        margin: 50px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .third-box-first
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        float: left;
+        margin-bottom: 70px;
+    
+    }
+    .third-box-second
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        float: right;
+        margin-bottom: 70px;
+    }
+    .third-box-first .third-box-text-first{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+    .third-box-second .third-box-text-second{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+    .third-box-first .third-box-text-first h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-top: -25px;
+    }
+    .third-box-second .third-box-text-second h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-top: -25px;
+    }
+    .third-box-second  img{
+        height: 300px;
+        width: 300px;
+    }
+    .third-box-first  img{
+        height: 300px;
+        width: 300px;
+    }
+
+    /* third section */
+    .third-box-first .third-box-text-first{
+        border: 2px solid black;
+        width: 450px;
+        height: 300px;
+        padding: 30px;
+    }
+    .third-box-first .third-box-text-first h3{
+        padding-top: 15px;
+    }
+    .third-box-second .third-box-text-second h3{
+        padding-top: 15px;
+    }
+    .third-box-second .third-box-text-second{
+        border: 2px solid black;
+        width: 450px;
+        height: 300px;
+        padding: 30px;
+    }
+    
+    /* our team */
+    .plyayer-number{
+        width: 100px;
+    }
+    .team-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .player-detail{
+        padding-bottom: 2%;
+    }
+
+    /* review */
+    #review .review-detail .btn{
+        margin-left: 220px;
+    }
+
+    }
+
+
+    @media (max-width: 800px){
+        /*logo apex*/
+    .logo li a{
+        padding-left: 20px;
+    }
+
+    /*main menu*/
+    nav .mainMenu {
+        padding-left: 13px;
+        padding-top: 10px;
+    }
+    nav .mainMenu li {
+        padding: 0px 10px;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    #navbar .mainMenu .icon{
+        display: none;
+    }
+    /* abut us */
+    #about-us .about{
+        margin-top: -20%;
+        width: 70%;
+    }
+    #about-us .about .btn{
+        margin-left: 110px;
+        padding: 8px 20px;
+    }
+
+    /*about the coach*/
+    .about-the-coatch{
+        height: 400px;
+    }
+    #about-coatch .about-the-coatch h2{
+        padding-left: 40px;
+    }
+    .about-the-coatch p{
+        padding-left: 40px;
+        padding-right: 10px;
+        text-align: justify;
+
+    }
+    .about-the-coatch .btn{
+        margin:29px 40px;
+    }
+    .about-the-coatch img{
+        display: none;
+    }
+
+    .about-the-coatch .name{
+        display: none;
+    }
+    .about-the-coatch .coach{
+       display: none;
+    }
+
+    /* galery section */
+    .gallery-heading {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        width: 100%;
+        position:relative;
+        background: #ffc722;
+        transform: skew(0deg);
+        -webkit-transform: skew(0deg);
+    }
+    .gallery-heading h2{
+        /* padding-left: 110px; */
+        transform: skew(0deg);
+        -webkit-transform: skew(0deg);
+    }
+
+    .gallery-album img{
+        display: flex;
+        width:100%;
+        height: 300px;
+    }
+
+    /* review */
+    #review .review-detail .btn{
+        margin-left: 120px;
+        padding: 7px 15px;
+    }
+   
+
+    /*form section*/
+    #form{
+        background-color: rgb(158, 154, 154);
+        width: 100%;
+    }
+    .form-detail form{
+        background-color: white;
+        padding: 40px;
+        margin-bottom: 40px;
+        width: 70%;
+    }
+    .form-detail input{
+        padding: 10px 10px;
+        margin-left: 50px;
+       width: 65%;
+    }
+    .form-detail textarea{
+        padding: 10px 10px;
+        margin-left: 50px;
+       width: 65%;
+      
+    }
+    }
+
+    @media (max-width: 600px){
+        /* apex logo */
+        .logo li a{
+            padding-left: 0px;
+            font-size: 1.3rem;
+        }
+        nav .mainMenu li a{
+            font-size: 1rem;
+            padding: 0px;
+        }
+        nav .mainMenu li {
+            padding: 2px;
+        }
+        /* abut us */
+    #about-us .about{
+        margin-top: -70%;
+        width: 80%;
+    }
+    #about-us .about .btn{
+        margin-left: 50px;
+        padding: 8px 20px;
+    }
+
+    /*about the coach*/
+    .about-the-coatch{
+        height: 550px;
+        width: 100%;
+    }
+    
+    .about-the-coatch .btn{
+        margin:29px 40px;
+    }
+
+    /* third selection */
+
+.third-box-first
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 60px;
+    
+    }
+.third-box-second
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 70px;
+    }
+    
+.third-box-first .third-box-text-first{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+.third-box-second .third-box-text-second{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+
+    /*Reviews*/
+
+#review{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #review .review-detail h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 20px;
+}
+#review .review-detail p{
+    text-align: justify;
+} */
+
+    }
+
+
